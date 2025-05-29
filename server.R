@@ -21,6 +21,7 @@ library(slingshot)
 library(shinycssloaders)
 library(plotly)
 
+options(shiny.maxRequestSize=100000*1024^2)
 
 #Server function.
 server <- function(input, output) {
@@ -1073,12 +1074,12 @@ server <- function(input, output) {
       num_axon_per_nerve_500_1000um <- as.integer(round(3.14159*(0.3/2)^2*(num_axon_per_300um_section_500_1000um/0.3)/0.014))
       num_axon_per_nerve_1000_1500um <- as.integer(round(3.14159*(0.3/2)^2*(num_axon_per_300um_section_1000_1500um/0.3)/0.014))
       num_axon_per_nerve_1500_2000um <- as.integer(round(3.14159*(0.3/2)^2*(num_axon_per_300um_section_1500_2000um/0.3)/0.014))
-      #Create variables for the nerve width at each interal. 
+      #Create variables for the nerve width at each interval. 
       width_0_500um <- width_zero
       width_500_1000um <- width_second
       width_1000_1500um <- width_third
       width_1500_2000um <- width_fourth
-      #Quantify the amount of axons per micrometer of nerve width. 
+      #Quantify the amount of axons per micrometer of nerve width.
       num_axon_per_nerve_width_0_500um <- round((num_axon_per_300um_section_0_500um/width_zero), digits = 2)
       num_axon_per_nerve_width_500_1000um <- round((num_axon_per_300um_section_500_1000um/width_second), digits = 2)
       num_axon_per_nerve_width_1000_1500um <- round((num_axon_per_300um_section_1000_1500um/width_third), digits = 2)
