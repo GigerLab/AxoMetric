@@ -9,7 +9,7 @@ This file will create the user interface of the shiny application.
 This file will create the server of the shiny application.
 
 ## main.R
-This file will source the user interface and server files (previously mentioned) to start Axon-o-matic on your computer.
+This file will source the user interface and server files (previously mentioned) to start AxoMetric on your computer.
 
 # Additional files needed in working directory for application to run
 
