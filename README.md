@@ -1,4 +1,4 @@
-# This Repository contains the code to locally run **Axon-o-matic**  
+# This Repository contains the code to locally run **AxoMetric**  
 
 # Order of events needed to run application
 

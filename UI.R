@@ -3,9 +3,7 @@
 library(shiny)
 library(EBImage)
 library(jpeg)
-library(magick)
 library(ggplot2)
-library(writexl)
 library(shinydashboard)
 library(dplyr)
 library(tibble)
@@ -24,7 +22,7 @@ site_setup <- function(){
   ui <- 
     #Create the Dashboard Header that includes all of the tabs on the left-side of the website and their respective sub-tabs.     
     dashboardPage(skin = "black",
-                  dashboardHeader(title = "Axon-o-matic", titleWidth = 187),
+                  dashboardHeader(title = "AxoMetric", titleWidth = 187),
                   dashboardSidebar(width = 250,
                     sidebarMenu(
                       menuItem("Home", tabName = 'Home', icon = icon('home', lib='font-awesome')),

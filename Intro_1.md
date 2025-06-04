@@ -1,13 +1,13 @@
 ---
-title: "Axon-o-matic"
+title: "AxoMetric"
 author: "Matthew Finneran"
 output: html_fragment
 ---
-# <center>**Axon-o-matic**</center>
+# <center>**AxoMetric**</center>
 
-Welcome to Axon-o-matic: An automatic interval-based quantification platform optimized for axon, mean fluorescence intensity, and cell body quantification. The purpose of this software is to create a tool for researchers to analyze tissue staining within distance intervals in an unbiased, consistent, and accessible manner. This platform will allow users to normalize tissue staining to tissue width based on cellular nuclear staining. This software was developed based on mouse optic and sciatic nerve longitudinal sections, however this may be applicable to other species / types of sections. The platform also includes a tool to measure the number of retinal ganglion cells (RGCs) in retina flatmount images of Rbpms-stained retinas.
+Welcome to AxoMetric: An automatic interval-based quantification platform optimized for axon, mean fluorescence intensity, and cell body quantification. The purpose of this software is to create a tool for researchers to analyze tissue staining within distance intervals in an unbiased, consistent, and accessible manner. This platform will allow users to normalize tissue staining to tissue width based on cellular nuclear staining. This software was developed based on mouse optic and sciatic nerve longitudinal sections, however this may be applicable to other species / types of sections. The platform also includes a tool to measure the number of retinal ganglion cells (RGCs) in retina flatmount images of Rbpms-stained retinas.
 
-![Design](Fig4.png){Width = 100%, height = 100%}
+<img src="Fig4.png" alt="Design" style="width: 100%; height: auto; ">
 
 <br>
 
@@ -19,14 +19,14 @@ The platform is divided into three parts: axon (CTB) quantification, mean fluore
 
 **Total Number of Axons** - Measure the total number of axons in an image at 4 separate intervals from the injury site. 
 
-![Design](Fig1.png){Width = 100%, height = 100%}
+<img src="Fig1.png" alt="Design" style="width: 100%; height: auto; ">
 *Developed based on 20x images of mouse optic nerves stained with cholera toxin subunit B (CTB).
 
 <br>
 
 **Normalized Number of Axons** - Measure the total number of axons in an image at 4 separate intervals from the injury site, and then normalize the total number of axons by the nerve width (calculated from nuclear stained image pixel height in inches) at each of the 4 intervals, represented by axons / um of nerve width. 
 
-![Design](Fig2.png){Width = 100%, height = 100%}
+<img src="Fig2.png" alt="Design" style="width: 100%; height: auto; ">}
 *Developed based on 20x images of mouse optic nerves stained with cholera toxin subunit B (CTB) & Hoechst.
 
 <br>
@@ -39,7 +39,7 @@ The platform is divided into three parts: axon (CTB) quantification, mean fluore
 
 **Total MFI** - Measure the mean fluorescence intensity (MFI) of an image at 4 separate intervals from the injury site.
 
-![Design](Fig3.png){Width = 100%, height = 100%}
+<img src="Fig3.png" alt="Design" style="width: 100%; height: auto; ">
 *Developed based on 20x images of mouse sciatic nerves stained with Stathmin-2.
 
 <br>
@@ -56,7 +56,7 @@ The platform is divided into three parts: axon (CTB) quantification, mean fluore
 
 <br>
 
-![Design](Fig5.png){Width = 100%, height = 100%}
+<img src="Fig5.png" alt="Design" style="width: 100%; height: auto; ">
 
 *Developed based on 20x images of mouse retinas stained with Rbpms.
 
@@ -66,7 +66,7 @@ The platform is divided into three parts: axon (CTB) quantification, mean fluore
 
 <br>
 
-![Design](Headshot.png){Width = 50%, height = 50%}
+<img src="Headshot.png" alt="Design" style="width: 50%; height: auto; ">
 
 Matthew Finneran, Giger Laboratory
 
@@ -76,7 +76,7 @@ Department of Cellular and Developmental Biology
 
 University of Michigan Ann Arbor, MI
 
-2024
+2025
 
 <br>
 
@@ -84,7 +84,7 @@ University of Michigan Ann Arbor, MI
 
 *Figures created with Biorender.com
 
-*Thank you to Craig Johnson, Bioinformatician of the Cellular and Developmental Biology Department at the University of Michigan, for his help with Axon-o-matic.
+*Thank you to Craig Johnson, Bioinformatician of the Cellular and Developmental Biology Department at the University of Michigan, for his help with AxoMetric.
 
 *Thank you to Dr. Larry Benowitz for his feedback and support in the development of this tool.
 

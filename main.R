@@ -25,7 +25,7 @@ library(plotly)
 loading_screen <- function(){
   waiting_screen <- tagList(
     spin_loaders(12),
-    h4("Loading Axon-o-matic...")
+    h4("Loading AxoMetric...")
   )
   return(waiting_screen)
 }
