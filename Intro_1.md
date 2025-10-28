@@ -11,40 +11,40 @@ Welcome to AxoMetric: An automatic interval-based quantification platform optimi
 
 <br>
 
-The platform is divided into three parts: axon (CTB) quantification, mean fluorescence intensity (MFI) quantification, and retinal ganglion cell (Rbpms) quantification.
+The platform is divided into three parts: axon quantification, mean fluorescence intensity (MFI) quantification, and retinal ganglion cell (Rbpms) quantification.
 
 <br>
 
 #### **Axon Quantification**
 
-**Total Number of Axons** - Measure the total number of axons in an image at 4 separate intervals from the injury site. 
+**Total Number of Axons** - Measure the total number of axons in an image at separate intervals from the injury site. 
 
 <img src="Fig1.png" alt="Design" style="width: 100%; height: auto; ">
 *Developed based on 20x images of mouse optic nerves stained with cholera toxin subunit B (CTB).
 
 <br>
 
-**Normalized Number of Axons** - Measure the total number of axons in an image at 4 separate intervals from the injury site, and then normalize the total number of axons by the nerve width (calculated from nuclear stained image pixel height in inches) at each of the 4 intervals, represented by axons / um of nerve width. 
+**Normalized Number of Axons** - Measure the total number of axons in an image at separate intervals from the injury site, and then normalize the total number of axons by the nerve width (calculated from nuclear stained image pixel height in inches) at each of the 4 intervals, represented by axons / um of nerve width. 
 
 <img src="Fig2.png" alt="Design" style="width: 100%; height: auto; ">}
 *Developed based on 20x images of mouse optic nerves stained with cholera toxin subunit B (CTB) & Hoechst.
 
 <br>
 
-**Multiple File Quantification (Total #)** - For multiple image files simultaneously, measure the total number of axons in an image at 4 separate intervals from the injury site. 
+**Multiple File Quantification (Total #)** - For multiple image files simultaneously, measure the total number of axons in an image at separate intervals from the injury site. 
 
 <br>
 
 #### **MFI Quantification**  
 
-**Total MFI** - Measure the mean fluorescence intensity (MFI) of an image at 4 separate intervals from the injury site.
+**Total MFI** - Measure the mean fluorescence intensity (MFI) of an image at separate intervals from the injury site.
 
 <img src="Fig3.png" alt="Design" style="width: 100%; height: auto; ">
 *Developed based on 20x images of mouse sciatic nerves stained with Stathmin-2.
 
 <br>
 
-**Normalized MFI** - Measure the MFI in an image at 4 separate intervals from the injury site, and then normalize the MFI by the nerve width (calculated from nuclear stained image and pixel height in inches) at each of the 4 intervals, represented by MFI / um of nerve width. 
+**Normalized MFI** - Measure the MFI in an image at separate intervals from the injury site, and then normalize the MFI by the nerve width (calculated from nuclear stained image and pixel height in inches) at each of the intervals, represented by MFI / um of nerve width. 
 
 <br>
 
